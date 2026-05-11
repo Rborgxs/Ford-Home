@@ -87,7 +87,7 @@ main img {
     width: 100%;
     max-width: 90%;
     height: auto;
-    margin: 2rem auto 0;
+    margin: 2rem auto;
 }
 
 main > p {
@@ -95,18 +95,17 @@ main > p {
     font-size: 0.9rem;
     color: black;
     line-height: 1.6;
-    margin: 1rem 0;
-    padding: 0 1rem;
+    padding: 1rem;
 }
 
-main > a {
+main > a, .link-home {
     display: inline;
     font-size: 0.9rem;
     color: var(--fonte-terciaria);
     text-decoration: underline;
 }
 
-main > a:hover {
+main > a:hover, .link-home:hover {
     color: var(--fonte-secundaria);
     transition: 300ms;
 }
@@ -309,7 +308,7 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 1rem;
-    margin-top: auto;
+    margin-top: 2rem;
     width: 100%;
     box-sizing: border-box;
 }
@@ -434,7 +433,7 @@ footer > p {
     }
 
     .button-comparar {
-        width: 100%;
+        width: 20rem;
         max-width: 100%;
         margin: 1.5rem 0;
     }
@@ -445,13 +444,12 @@ footer > p {
     }
 
     footer {
-        padding: 1rem 2%;
-        gap: 0.5rem;
+        gap: 1rem;
+        padding: 0.8rem;
     }
 
     .redes-sociais {
         order: 1;
-        width: 100%;
         gap: 0.3rem;
     }
 
@@ -567,7 +565,7 @@ footer > p {
     }
 
     .button-comparar {
-        width: 100%;
+        width: 20rem;
         padding: 0.6rem 1rem;
         font-size: 0.9rem;
         margin: 1rem 0;
@@ -668,7 +666,7 @@ footer > p {
     }
 
     .button-comparar {
-        width: 100%;
+        width: 8rem;
         padding: 0.5rem 0.8rem;
         font-size: 0.8rem;
         margin: 0.8rem 0;
